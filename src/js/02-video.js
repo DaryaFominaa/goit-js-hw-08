@@ -17,4 +17,3 @@ player.on('timeupdate',  throttle((function (data) {
 }), 1000));
 
 player.setCurrentTime(Number(localStorage.getItem('videoplayer-current-time')));
-
